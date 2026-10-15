@@ -1,19 +1,18 @@
 # Beevenom Leonitus website
 
-A lightweight static website built with plain HTML and CSS. The first three legacy pages are About us, Bee venom and Collector.
+A responsive, six-page static website built with plain HTML and CSS. The pages use the archived original site imagery and copy, with clearer navigation, mobile layouts, and cautious wording for company-reported performance and health-related topics.
+
+## Pages
+
+- `index.html` — About us
+- `bee-venom.html` — Bee venom
+- `collector.html` — Collector
+- `q-a.html` — Questions and answers
+- `microencapsulation.html` — Microencapsulation
+- `store.html` — Store
 
 ## Publish with GitHub Pages
 
-1. Open repository **Settings → Pages**.
-2. Select **Deploy from a branch**, choose `develop` and `/(root)`, then save.
-3. Add `beevenom-leonitus.com` as the custom domain after confirming registration and configuring DNS with the domain provider. GitHub Pages settings show verification and HTTPS status.
+In repository **Settings → Pages**, choose **Deploy from a branch**, select `develop` and `/(root)`, then save. The repository CNAME is `www.beevenom-leonitus.com`. DNS records must point to GitHub Pages, and GitHub Pages must finish building before the custom domain is available.
 
-`CNAME` is included for the planned domain. This commit does not configure registrar DNS or enable Pages.
-
-## Google Tag Manager
-
-GTM is pending the container ID. Send the ID (format `GTM-XXXXXXX`) to add tracking to all three pages. Never share a personal access token in chat.
-
-## Content
-
-Production figures come from the legacy site. The collector benchmark is labeled as a company-reported result, not a performance guarantee. Product copy avoids medical claims.
+The store links to the retailer’s live product listings, so current price, stock and delivery details stay with the retailer.
